@@ -1,0 +1,28 @@
+{
+    "DATASET_FILES": [
+        "../caracteristicas/dataset1_m3_3_7.csv",
+        "../caracteristicas/dataset2_m3_3_7.csv",
+        "../caracteristicas/dataset3_m3_3_7.csv",
+        "../caracteristicas/dataset4_m3_3_7.csv",
+        "../caracteristicas/dataset5_m3_3_7.csv",
+        "../caracteristicas/dataset6_m3_3_7.csv"
+    ],
+
+    "KMIN": 1,
+    "KMAX": 1,
+    "KSTEP": 1,
+
+    "SEED1":            1,
+    "SEED2":            500,
+
+    "OUTLIERS_PERCENT": 5,
+    "OUTLIERS_STEP":    5,
+
+    "PCA1":             [ 5, 3,  5,  5,  3,  3],
+    "PCA2":             [59, 8, 24, 59, 17, 17],
+    "PCA_STEP":         [ 3, 1,  2,  3,  1,  1],
+
+    "SAVE_DIR":         "./resultados/knn_/",
+
+    "MULTIPLICIDAD": []
+}

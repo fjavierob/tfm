@@ -1,0 +1,16 @@
+function [f_theta, f_salpha, f_alpha, f_beta, f_gamma] = filtros_iir(Fs)
+    f_theta  = designfilt('bandpassiir', 'StopbandFrequency1', 2.7, 'PassbandFrequency1', 3, 'PassbandFrequency2', 7, ...
+    'StopbandFrequency2', 7.3, 'StopbandAttenuation1', 60, 'PassbandRipple', 1, 'StopbandAttenuation2', 60, 'SampleRate', Fs, 'MatchExactly', 'passband');
+
+    f_salpha = designfilt('bandpassiir', 'StopbandFrequency1', 7.7, 'PassbandFrequency1', 8, 'PassbandFrequency2', 10, ...
+    'StopbandFrequency2', 10.3, 'StopbandAttenuation1', 60, 'PassbandRipple', 1, 'StopbandAttenuation2', 60, 'SampleRate', Fs, 'MatchExactly', 'passband');
+
+    f_alpha  = designfilt('bandpassiir', 'StopbandFrequency1', 7.7, 'PassbandFrequency1', 8, 'PassbandFrequency2', 12, ...
+    'StopbandFrequency2', 12.3, 'StopbandAttenuation1', 60, 'PassbandRipple', 1, 'StopbandAttenuation2', 60, 'SampleRate', Fs, 'MatchExactly', 'passband');
+
+    f_beta   = designfilt('bandpassiir', 'StopbandFrequency1', 11.7, 'PassbandFrequency1', 12, 'PassbandFrequency2', 30, ...
+    'StopbandFrequency2', 30.3, 'StopbandAttenuation1', 60, 'PassbandRipple', 1, 'StopbandAttenuation2', 60, 'SampleRate', Fs, 'MatchExactly', 'passband');
+    
+    f_gamma  = designfilt('bandpassiir', 'StopbandFrequency1', 29.7, 'PassbandFrequency1', 30, 'PassbandFrequency2', 47, ...
+    'StopbandFrequency2', 47.3, 'StopbandAttenuation1', 60, 'PassbandRipple', 1, 'StopbandAttenuation2', 60, 'SampleRate', Fs, 'MatchExactly', 'passband');
+end

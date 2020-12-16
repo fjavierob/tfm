@@ -1,0 +1,76 @@
+{
+    "DATASET_FILES": [
+        "../caracteristicas/dataset1_m3_3_7.csv",
+        "../caracteristicas/dataset2_m3_3_7.csv",
+        "../caracteristicas/dataset3_m3_3_7.csv"
+    ],
+
+    "KERNELS": 
+    [
+        "linear",
+        "poly",
+        "rbf"
+    ],
+
+    "C": [ 0.1, 1.9 ],
+
+    "SEED1":            1,
+    "SEED2":            3,
+
+    "OUTLIERS_PERCENT": 5,
+    "OUTLIERS_STEP":    5,
+
+    "PCA1":             [ 5, 3,  5,  5,  3,  3],
+    "PCA2":             [25, 8, 21, 25, 14, 14],
+    "PCA_STEP":         [20, 5, 16, 20, 11, 11],
+
+    "SAVE_DIR":         "./asd/",
+
+    "MULTIPLICIDAD": [
+        {
+            "CONJUNTO": 1,
+            "M":
+            [
+                1,
+                2,
+                3
+            ],
+            "FILES":
+            [
+                "../caracteristicas/dataset1_m1_3_7.csv",
+                "../caracteristicas/dataset1_m2_3_7.csv",
+                "../caracteristicas/dataset1_m3_3_7.csv"
+            ]
+        },
+        {
+            "CONJUNTO": 2,
+            "M":
+            [
+                1,
+                2,
+                3
+            ],
+            "FILES":
+            [
+                "../caracteristicas/dataset2_m1_3_7.csv",
+                "../caracteristicas/dataset2_m2_3_7.csv",
+                "../caracteristicas/dataset2_m3_3_7.csv"
+            ]
+        },
+        {
+            "CONJUNTO": 3,
+            "M":
+            [
+                1,
+                2,
+                3
+            ],
+            "FILES":
+            [
+                "../caracteristicas/dataset3_m1_3_7.csv",
+                "../caracteristicas/dataset3_m2_3_7.csv",
+                "../caracteristicas/dataset3_m3_3_7.csv"
+            ]
+        }
+    ]
+}

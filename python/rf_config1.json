@@ -1,0 +1,27 @@
+{
+    "DATASET_FILE": [
+        "../caracteristicas/dataset1_m1_3_7.csv",
+        "../caracteristicas/dataset2_m1_3_7.csv",
+        "../caracteristicas/dataset3_m1_3_7.csv",
+        "../caracteristicas/dataset4_m1_3_7.csv",
+        "../caracteristicas/dataset5_m1_3_7.csv",
+        "../caracteristicas/dataset6_m1_3_7.csv"
+    ],
+
+    "MAX_DEPTH_MIN":    1,
+    "MAX_DEPTH_MAX":    25,
+    "MAX_DEPTH_STEP":   1,
+
+    "SEED1":            1,
+    "SEED2":            300,
+
+    "OUTLIERS_PERCENT": 55,
+    "OUTLIERS_STEP":    5,
+
+    "PCA1":             3,
+    "PCA2":             30,
+    "PCA_STEP":         3,
+
+    "SAVE_DIR":         "./tmp1/"
+
+}
