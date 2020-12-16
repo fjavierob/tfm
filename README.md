@@ -24,7 +24,7 @@ The latter has been divided into two problems of binary classification: on the o
 
 * Filtering and characteristic extraction from the signals done with **Matlab**. 
 
-* Classification and done with **Python** using ```Scikit-learn``` and ```Keras``` libraries.
+* Classification done with **Python** using ```Scikit-learn``` and ```Keras``` libraries.
 
 ### Author
 
