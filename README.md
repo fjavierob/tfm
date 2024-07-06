@@ -28,4 +28,4 @@ The latter has been divided into two problems of binary classification: on the o
 
 ### Author
 
-**Francisco Javier  Ortiz Bonilla** - [Pogorelich](https://github.com/pogorelich)
+**Francisco Javier  Ortiz Bonilla** - [fjavierob](https://github.com/fjavierob)
